@@ -47,11 +47,11 @@ class MainActivity : AppCompatActivity(),CounterView {
 
     @SuppressLint("ResourceAsColor")
     override fun defaultTextColor() {
-        binding.tvCounter.setTextColor(R.color.black)
+        binding.tvCounter.setTextColor(getColor(R.color.black))
     }
 
     @SuppressLint("ResourceAsColor")
     override fun textColor() {
-        binding.tvCounter.setTextColor(R.color.teal_200)
+        binding.tvCounter.setTextColor(getColor(R.color.green))
     }
 }

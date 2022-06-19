@@ -21,7 +21,7 @@ class Presenter {
             model.getCount() == 15 -> {
                 view.textColor()
             }
-            model.getCount() != 15 -> {
+            model.getCount() != 15 ->{
                 view.defaultTextColor()
             }
         }
@@ -40,7 +40,7 @@ class Presenter {
             model.getCount() == 15 -> {
                 view.textColor()
             }
-            model.getCount() != 15 -> {
+            model.getCount() != 15 ->{
                 view.defaultTextColor()
             }
         }
